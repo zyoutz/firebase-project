@@ -246,10 +246,10 @@
           },
           "coordinates": {
             "longitude": {
-              ".validate": "newData.isString() && newData.val().length == 12"
+              ".validate": "newData.isString() && newData.val().length < 20"
             },
             "latitude": {
-              ".validate": "newData.isString() && newData.val().length == 12"
+              ".validate": "newData.isString() && newData.val().length < 20"
             }
           }
         }

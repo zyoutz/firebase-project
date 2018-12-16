@@ -22,6 +22,16 @@ functions/processProviders.js [new]
 database-rules.json
 ```
 
+```
+firebase login
+firebase use --add
+```
+
+Deploy specific function:
+```
+firebase deploy --only functions:processProviders
+```
+
 # Friendly Pix Web
 
 Friendly Pix Web is a sample app demonstrating how to build a JavaScript/Web app with the Firebase Platform.
